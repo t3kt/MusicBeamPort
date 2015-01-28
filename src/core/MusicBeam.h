@@ -10,6 +10,8 @@
 #define __MusicBeamPort__MusicBeam__
 
 #include <ofParameterGroup.h>
+#include "BeatDetect.h"
+#include "Stage.h"
 
 class MusicBeam {
 public:
@@ -19,6 +21,9 @@ public:
   ofParameter<float> beatDelay;
   ofParameter<float> minLevel;
   ofParameter<float> inputMixLevel;
+  BeatDetect frequencyDetect;
+  BeatDetect soundDetect;
+  Stage stage;
 };
 
 #endif /* defined(__MusicBeamPort__MusicBeam__) */

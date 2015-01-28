@@ -11,6 +11,19 @@
 		32B7351F1A78B53200285B12 /* Effect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32B7351D1A78B53200285B12 /* Effect.cpp */; };
 		32B735221A78B63800285B12 /* MusicBeam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32B735201A78B63800285B12 /* MusicBeam.cpp */; };
 		32B735251A78B86200285B12 /* BeatDetect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32B735231A78B86200285B12 /* BeatDetect.cpp */; };
+		32B735281A795E2900285B12 /* Stage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32B735261A795E2900285B12 /* Stage.cpp */; };
+		32B735321A7962F800285B12 /* ofxXmlSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32B7352B1A7962F800285B12 /* ofxXmlSettings.cpp */; };
+		32B735331A7962F800285B12 /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32B7352E1A7962F800285B12 /* tinyxml.cpp */; };
+		32B735341A7962F800285B12 /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32B735301A7962F800285B12 /* tinyxmlerror.cpp */; };
+		32B735351A7962F800285B12 /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32B735311A7962F800285B12 /* tinyxmlparser.cpp */; };
+		32B735491A7962FC00285B12 /* ofxBaseGui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32B735381A7962FC00285B12 /* ofxBaseGui.cpp */; };
+		32B7354A1A7962FC00285B12 /* ofxButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32B7353A1A7962FC00285B12 /* ofxButton.cpp */; };
+		32B7354B1A7962FC00285B12 /* ofxGuiGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32B7353D1A7962FC00285B12 /* ofxGuiGroup.cpp */; };
+		32B7354C1A7962FC00285B12 /* ofxLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32B7353F1A7962FC00285B12 /* ofxLabel.cpp */; };
+		32B7354D1A7962FC00285B12 /* ofxPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32B735411A7962FC00285B12 /* ofxPanel.cpp */; };
+		32B7354E1A7962FC00285B12 /* ofxSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32B735431A7962FC00285B12 /* ofxSlider.cpp */; };
+		32B7354F1A7962FC00285B12 /* ofxSliderGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32B735451A7962FC00285B12 /* ofxSliderGroup.cpp */; };
+		32B735501A7962FC00285B12 /* ofxToggle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32B735471A7962FC00285B12 /* ofxToggle.cpp */; };
 		BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 		E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9710E8CC7DD009D7055 /* AGL.framework */; };
@@ -71,6 +84,31 @@
 		32B735211A78B63800285B12 /* MusicBeam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MusicBeam.h; path = core/MusicBeam.h; sourceTree = "<group>"; };
 		32B735231A78B86200285B12 /* BeatDetect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BeatDetect.cpp; path = core/BeatDetect.cpp; sourceTree = "<group>"; };
 		32B735241A78B86200285B12 /* BeatDetect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BeatDetect.h; path = core/BeatDetect.h; sourceTree = "<group>"; };
+		32B735261A795E2900285B12 /* Stage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Stage.cpp; path = core/Stage.cpp; sourceTree = "<group>"; };
+		32B735271A795E2900285B12 /* Stage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Stage.h; path = core/Stage.h; sourceTree = "<group>"; };
+		32B7352B1A7962F800285B12 /* ofxXmlSettings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxXmlSettings.cpp; sourceTree = "<group>"; };
+		32B7352C1A7962F800285B12 /* ofxXmlSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxXmlSettings.h; sourceTree = "<group>"; };
+		32B7352E1A7962F800285B12 /* tinyxml.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxml.cpp; sourceTree = "<group>"; };
+		32B7352F1A7962F800285B12 /* tinyxml.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tinyxml.h; sourceTree = "<group>"; };
+		32B735301A7962F800285B12 /* tinyxmlerror.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlerror.cpp; sourceTree = "<group>"; };
+		32B735311A7962F800285B12 /* tinyxmlparser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlparser.cpp; sourceTree = "<group>"; };
+		32B735381A7962FC00285B12 /* ofxBaseGui.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxBaseGui.cpp; sourceTree = "<group>"; };
+		32B735391A7962FC00285B12 /* ofxBaseGui.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxBaseGui.h; sourceTree = "<group>"; };
+		32B7353A1A7962FC00285B12 /* ofxButton.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxButton.cpp; sourceTree = "<group>"; };
+		32B7353B1A7962FC00285B12 /* ofxButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxButton.h; sourceTree = "<group>"; };
+		32B7353C1A7962FC00285B12 /* ofxGui.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxGui.h; sourceTree = "<group>"; };
+		32B7353D1A7962FC00285B12 /* ofxGuiGroup.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxGuiGroup.cpp; sourceTree = "<group>"; };
+		32B7353E1A7962FC00285B12 /* ofxGuiGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxGuiGroup.h; sourceTree = "<group>"; };
+		32B7353F1A7962FC00285B12 /* ofxLabel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxLabel.cpp; sourceTree = "<group>"; };
+		32B735401A7962FC00285B12 /* ofxLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxLabel.h; sourceTree = "<group>"; };
+		32B735411A7962FC00285B12 /* ofxPanel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxPanel.cpp; sourceTree = "<group>"; };
+		32B735421A7962FC00285B12 /* ofxPanel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxPanel.h; sourceTree = "<group>"; };
+		32B735431A7962FC00285B12 /* ofxSlider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxSlider.cpp; sourceTree = "<group>"; };
+		32B735441A7962FC00285B12 /* ofxSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxSlider.h; sourceTree = "<group>"; };
+		32B735451A7962FC00285B12 /* ofxSliderGroup.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxSliderGroup.cpp; sourceTree = "<group>"; };
+		32B735461A7962FC00285B12 /* ofxSliderGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxSliderGroup.h; sourceTree = "<group>"; };
+		32B735471A7962FC00285B12 /* ofxToggle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxToggle.cpp; sourceTree = "<group>"; };
+		32B735481A7962FC00285B12 /* ofxToggle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxToggle.h; sourceTree = "<group>"; };
 		BBAB23BE13894E4700AA2426 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../of_v0.8.4_osx_release/libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
 		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../of_v0.8.4_osx_release/libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
 		E45BE9710E8CC7DD009D7055 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
@@ -134,13 +172,81 @@
 				32B735211A78B63800285B12 /* MusicBeam.h */,
 				32B735231A78B86200285B12 /* BeatDetect.cpp */,
 				32B735241A78B86200285B12 /* BeatDetect.h */,
+				32B735261A795E2900285B12 /* Stage.cpp */,
+				32B735271A795E2900285B12 /* Stage.h */,
 			);
 			name = core;
+			sourceTree = "<group>";
+		};
+		32B735291A7962F800285B12 /* ofxXmlSettings */ = {
+			isa = PBXGroup;
+			children = (
+				32B7352A1A7962F800285B12 /* src */,
+				32B7352D1A7962F800285B12 /* libs */,
+			);
+			name = ofxXmlSettings;
+			sourceTree = "<group>";
+		};
+		32B7352A1A7962F800285B12 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				32B7352B1A7962F800285B12 /* ofxXmlSettings.cpp */,
+				32B7352C1A7962F800285B12 /* ofxXmlSettings.h */,
+			);
+			name = src;
+			path = ../of_v0.8.4_osx_release/addons/ofxXmlSettings/src;
+			sourceTree = "<group>";
+		};
+		32B7352D1A7962F800285B12 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				32B7352E1A7962F800285B12 /* tinyxml.cpp */,
+				32B7352F1A7962F800285B12 /* tinyxml.h */,
+				32B735301A7962F800285B12 /* tinyxmlerror.cpp */,
+				32B735311A7962F800285B12 /* tinyxmlparser.cpp */,
+			);
+			name = libs;
+			path = ../of_v0.8.4_osx_release/addons/ofxXmlSettings/libs;
+			sourceTree = "<group>";
+		};
+		32B735361A7962FC00285B12 /* ofxGui */ = {
+			isa = PBXGroup;
+			children = (
+				32B735371A7962FC00285B12 /* src */,
+			);
+			name = ofxGui;
+			sourceTree = "<group>";
+		};
+		32B735371A7962FC00285B12 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				32B735381A7962FC00285B12 /* ofxBaseGui.cpp */,
+				32B735391A7962FC00285B12 /* ofxBaseGui.h */,
+				32B7353A1A7962FC00285B12 /* ofxButton.cpp */,
+				32B7353B1A7962FC00285B12 /* ofxButton.h */,
+				32B7353C1A7962FC00285B12 /* ofxGui.h */,
+				32B7353D1A7962FC00285B12 /* ofxGuiGroup.cpp */,
+				32B7353E1A7962FC00285B12 /* ofxGuiGroup.h */,
+				32B7353F1A7962FC00285B12 /* ofxLabel.cpp */,
+				32B735401A7962FC00285B12 /* ofxLabel.h */,
+				32B735411A7962FC00285B12 /* ofxPanel.cpp */,
+				32B735421A7962FC00285B12 /* ofxPanel.h */,
+				32B735431A7962FC00285B12 /* ofxSlider.cpp */,
+				32B735441A7962FC00285B12 /* ofxSlider.h */,
+				32B735451A7962FC00285B12 /* ofxSliderGroup.cpp */,
+				32B735461A7962FC00285B12 /* ofxSliderGroup.h */,
+				32B735471A7962FC00285B12 /* ofxToggle.cpp */,
+				32B735481A7962FC00285B12 /* ofxToggle.h */,
+			);
+			name = src;
+			path = ../of_v0.8.4_osx_release/addons/ofxGui/src;
 			sourceTree = "<group>";
 		};
 		BB4B014C10F69532006C3DED /* addons */ = {
 			isa = PBXGroup;
 			children = (
+				32B735361A7962FC00285B12 /* ofxGui */,
+				32B735291A7962F800285B12 /* ofxXmlSettings */,
 			);
 			name = addons;
 			sourceTree = "<group>";
@@ -312,11 +418,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				32B7351F1A78B53200285B12 /* Effect.cpp in Sources */,
+				32B735351A7962F800285B12 /* tinyxmlparser.cpp in Sources */,
+				32B735331A7962F800285B12 /* tinyxml.cpp in Sources */,
+				32B7354B1A7962FC00285B12 /* ofxGuiGroup.cpp in Sources */,
 				32B735221A78B63800285B12 /* MusicBeam.cpp in Sources */,
+				32B735491A7962FC00285B12 /* ofxBaseGui.cpp in Sources */,
+				32B735321A7962F800285B12 /* ofxXmlSettings.cpp in Sources */,
+				32B735501A7962FC00285B12 /* ofxToggle.cpp in Sources */,
 				32B7351C1A78B4D600285B12 /* Beat.cpp in Sources */,
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
 				32B735251A78B86200285B12 /* BeatDetect.cpp in Sources */,
+				32B7354D1A7962FC00285B12 /* ofxPanel.cpp in Sources */,
+				32B735281A795E2900285B12 /* Stage.cpp in Sources */,
+				32B735341A7962F800285B12 /* tinyxmlerror.cpp in Sources */,
+				32B7354E1A7962FC00285B12 /* ofxSlider.cpp in Sources */,
+				32B7354C1A7962FC00285B12 /* ofxLabel.cpp in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
+				32B7354F1A7962FC00285B12 /* ofxSliderGroup.cpp in Sources */,
+				32B7354A1A7962FC00285B12 /* ofxButton.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +593,7 @@
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_52)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)Debug";
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -559,6 +679,7 @@
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_51)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

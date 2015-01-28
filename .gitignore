@@ -2,3 +2,5 @@
 *.xcuserstate
 
 MusicBeamPort.xcodeproj/xcuserdata/*
+bin/*.app
+*.xccheckout
