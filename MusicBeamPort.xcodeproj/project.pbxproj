@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		322C01491A7C943400E7EDE8 /* ofxBeatDetector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 322C01471A7C943400E7EDE8 /* ofxBeatDetector.cpp */; };
+		322C014C1A7C973000E7EDE8 /* BlackoutEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 322C014A1A7C973000E7EDE8 /* BlackoutEffect.cpp */; };
+		322C014F1A7C983F00E7EDE8 /* StrobeEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 322C014D1A7C983F00E7EDE8 /* StrobeEffect.cpp */; };
+		322C01521A7C9CA700E7EDE8 /* SnowstormEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 322C01501A7C9CA700E7EDE8 /* SnowstormEffect.cpp */; };
 		32B7351C1A78B4D600285B12 /* Beat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32B7351A1A78B4D600285B12 /* Beat.cpp */; };
 		32B7351F1A78B53200285B12 /* Effect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32B7351D1A78B53200285B12 /* Effect.cpp */; };
 		32B735221A78B63800285B12 /* MusicBeam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32B735201A78B63800285B12 /* MusicBeam.cpp */; };
@@ -78,6 +81,12 @@
 /* Begin PBXFileReference section */
 		322C01471A7C943400E7EDE8 /* ofxBeatDetector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxBeatDetector.cpp; sourceTree = "<group>"; };
 		322C01481A7C943400E7EDE8 /* ofxBeatDetector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxBeatDetector.h; sourceTree = "<group>"; };
+		322C014A1A7C973000E7EDE8 /* BlackoutEffect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BlackoutEffect.cpp; path = core/BlackoutEffect.cpp; sourceTree = "<group>"; };
+		322C014B1A7C973000E7EDE8 /* BlackoutEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlackoutEffect.h; path = core/BlackoutEffect.h; sourceTree = "<group>"; };
+		322C014D1A7C983F00E7EDE8 /* StrobeEffect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StrobeEffect.cpp; path = core/StrobeEffect.cpp; sourceTree = "<group>"; };
+		322C014E1A7C983F00E7EDE8 /* StrobeEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StrobeEffect.h; path = core/StrobeEffect.h; sourceTree = "<group>"; };
+		322C01501A7C9CA700E7EDE8 /* SnowstormEffect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SnowstormEffect.cpp; path = core/SnowstormEffect.cpp; sourceTree = "<group>"; };
+		322C01511A7C9CA700E7EDE8 /* SnowstormEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SnowstormEffect.h; path = core/SnowstormEffect.h; sourceTree = "<group>"; };
 		32B7351A1A78B4D600285B12 /* Beat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Beat.cpp; path = core/Beat.cpp; sourceTree = "<group>"; };
 		32B7351B1A78B4D600285B12 /* Beat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Beat.h; path = core/Beat.h; sourceTree = "<group>"; };
 		32B7351D1A78B53200285B12 /* Effect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Effect.cpp; path = core/Effect.cpp; sourceTree = "<group>"; };
@@ -183,6 +192,8 @@
 			isa = PBXGroup;
 			children = (
 				32B7351A1A78B4D600285B12 /* Beat.cpp */,
+				322C01501A7C9CA700E7EDE8 /* SnowstormEffect.cpp */,
+				322C01511A7C9CA700E7EDE8 /* SnowstormEffect.h */,
 				32B7351B1A78B4D600285B12 /* Beat.h */,
 				32B7351D1A78B53200285B12 /* Effect.cpp */,
 				32B7351E1A78B53200285B12 /* Effect.h */,
@@ -190,6 +201,10 @@
 				32B735211A78B63800285B12 /* MusicBeam.h */,
 				32B735261A795E2900285B12 /* Stage.cpp */,
 				32B735271A795E2900285B12 /* Stage.h */,
+				322C014A1A7C973000E7EDE8 /* BlackoutEffect.cpp */,
+				322C014B1A7C973000E7EDE8 /* BlackoutEffect.h */,
+				322C014D1A7C983F00E7EDE8 /* StrobeEffect.cpp */,
+				322C014E1A7C983F00E7EDE8 /* StrobeEffect.h */,
 			);
 			name = core;
 			sourceTree = "<group>";
@@ -435,16 +450,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				32B7351F1A78B53200285B12 /* Effect.cpp in Sources */,
+				322C014C1A7C973000E7EDE8 /* BlackoutEffect.cpp in Sources */,
 				32B735351A7962F800285B12 /* tinyxmlparser.cpp in Sources */,
 				32B735331A7962F800285B12 /* tinyxml.cpp in Sources */,
 				322C01491A7C943400E7EDE8 /* ofxBeatDetector.cpp in Sources */,
 				32B7354B1A7962FC00285B12 /* ofxGuiGroup.cpp in Sources */,
 				32B735221A78B63800285B12 /* MusicBeam.cpp in Sources */,
 				32B735491A7962FC00285B12 /* ofxBaseGui.cpp in Sources */,
+				322C014F1A7C983F00E7EDE8 /* StrobeEffect.cpp in Sources */,
 				32B735321A7962F800285B12 /* ofxXmlSettings.cpp in Sources */,
 				32B735501A7962FC00285B12 /* ofxToggle.cpp in Sources */,
 				32B7351C1A78B4D600285B12 /* Beat.cpp in Sources */,
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
+				322C01521A7C9CA700E7EDE8 /* SnowstormEffect.cpp in Sources */,
 				32B7354D1A7962FC00285B12 /* ofxPanel.cpp in Sources */,
 				32B735281A795E2900285B12 /* Stage.cpp in Sources */,
 				32B735341A7962F800285B12 /* tinyxmlerror.cpp in Sources */,

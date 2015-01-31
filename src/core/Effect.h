@@ -58,9 +58,9 @@ public:
   
   virtual char triggeredByKey() const = 0;
   
-  void keyPressed(char key, int keyCode);
-  void keyReleased(char key, int keyCode);
-private:
+  virtual void keyPressed(int key) {}
+  virtual void keyReleased(int key) {}
+protected:
   const int _id;
   MusicBeam& _controller;
   ofParameterGroup _paramGroup;
