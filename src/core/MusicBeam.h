@@ -10,7 +10,7 @@
 #define __MusicBeamPort__MusicBeam__
 
 #include <ofParameterGroup.h>
-#include "BeatDetect.h"
+#include <ofxBeatDetector.h>
 #include "Stage.h"
 
 class MusicBeam {
@@ -21,8 +21,8 @@ public:
   ofParameter<float> beatDelay;
   ofParameter<float> minLevel;
   ofParameter<float> inputMixLevel;
-  BeatDetect frequencyDetect;
-  BeatDetect soundDetect;
+  ofxBeatDetector frequencyDetect;
+  ofxBeatDetector soundDetect;
   Stage stage;
 };
 

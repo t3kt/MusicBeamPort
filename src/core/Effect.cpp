@@ -14,7 +14,7 @@ static int nextId() {
   return ++last;
 }
 
-Effect::Effect(const MusicBeam& ctrl)
+Effect::Effect(MusicBeam& ctrl)
 : _controller(ctrl)
 , _id(nextId()) { }
 
@@ -26,21 +26,21 @@ void Effect::setup() {
   _paramGroup.add(_manualTriggered.set("Manual Trigger", false));
 }
 
-bool Effect::isHat() const {
+bool Effect::isHat() {
   return getLevel() > _controller.minLevel.get() ? _controller.frequencyDetect.isHat() : false;
 }
 
-bool Effect::isSnare() const {
+bool Effect::isSnare() {
   return getLevel() > _controller.minLevel.get() ? _controller.frequencyDetect.isSnare() : false;
 }
 
-bool Effect::isKick() const {
+bool Effect::isKick() {
   return getLevel() > _controller.minLevel.get() ? _controller.frequencyDetect.isKick() : false;
 }
 
-bool Effect::isOnset() const {
-  return getLevel() > _controller.minLevel.get() ? _controller.soundDetect.isOnset() : false;
-}
+//bool Effect::isOnset() {
+//  return getLevel() > _controller.minLevel.get() ? _controller.soundDetect.isOnset() : false;
+//}
 
 float Effect::getLevel() const {
   return _controller.inputMixLevel.get();

@@ -17,7 +17,7 @@ class MusicBeam;
 
 class Effect {
 public:
-  explicit Effect(const MusicBeam& ctrl);
+  explicit Effect(MusicBeam& ctrl);
   
   virtual void setup();
   
@@ -31,15 +31,15 @@ public:
     resetStage();
   }
   
-  bool isHat() const;
+  bool isHat();
   
-  bool isSnare() const;
+  bool isSnare();
   
-  bool isKick() const;
+  bool isKick();
   
-  bool isOnset() const;
+  bool isOnset();
   
-  bool isActive() const;
+  bool isActive();
   
   void activate();
   
@@ -62,7 +62,7 @@ public:
   void keyReleased(char key, int keyCode);
 private:
   const int _id;
-  const MusicBeam& _controller;
+  MusicBeam& _controller;
   ofParameterGroup _paramGroup;
   ofParameter<bool> _randomToggle;
   ofParameter<bool> _manualTriggered;

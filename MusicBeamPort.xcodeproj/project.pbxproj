@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		322C01491A7C943400E7EDE8 /* ofxBeatDetector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 322C01471A7C943400E7EDE8 /* ofxBeatDetector.cpp */; };
 		32B7351C1A78B4D600285B12 /* Beat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32B7351A1A78B4D600285B12 /* Beat.cpp */; };
 		32B7351F1A78B53200285B12 /* Effect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32B7351D1A78B53200285B12 /* Effect.cpp */; };
 		32B735221A78B63800285B12 /* MusicBeam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32B735201A78B63800285B12 /* MusicBeam.cpp */; };
-		32B735251A78B86200285B12 /* BeatDetect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32B735231A78B86200285B12 /* BeatDetect.cpp */; };
 		32B735281A795E2900285B12 /* Stage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32B735261A795E2900285B12 /* Stage.cpp */; };
 		32B735321A7962F800285B12 /* ofxXmlSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32B7352B1A7962F800285B12 /* ofxXmlSettings.cpp */; };
 		32B735331A7962F800285B12 /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32B7352E1A7962F800285B12 /* tinyxml.cpp */; };
@@ -76,14 +76,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		322C01471A7C943400E7EDE8 /* ofxBeatDetector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxBeatDetector.cpp; sourceTree = "<group>"; };
+		322C01481A7C943400E7EDE8 /* ofxBeatDetector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxBeatDetector.h; sourceTree = "<group>"; };
 		32B7351A1A78B4D600285B12 /* Beat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Beat.cpp; path = core/Beat.cpp; sourceTree = "<group>"; };
 		32B7351B1A78B4D600285B12 /* Beat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Beat.h; path = core/Beat.h; sourceTree = "<group>"; };
 		32B7351D1A78B53200285B12 /* Effect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Effect.cpp; path = core/Effect.cpp; sourceTree = "<group>"; };
 		32B7351E1A78B53200285B12 /* Effect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Effect.h; path = core/Effect.h; sourceTree = "<group>"; };
 		32B735201A78B63800285B12 /* MusicBeam.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MusicBeam.cpp; path = core/MusicBeam.cpp; sourceTree = "<group>"; };
 		32B735211A78B63800285B12 /* MusicBeam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MusicBeam.h; path = core/MusicBeam.h; sourceTree = "<group>"; };
-		32B735231A78B86200285B12 /* BeatDetect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BeatDetect.cpp; path = core/BeatDetect.cpp; sourceTree = "<group>"; };
-		32B735241A78B86200285B12 /* BeatDetect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BeatDetect.h; path = core/BeatDetect.h; sourceTree = "<group>"; };
 		32B735261A795E2900285B12 /* Stage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Stage.cpp; path = core/Stage.cpp; sourceTree = "<group>"; };
 		32B735271A795E2900285B12 /* Stage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Stage.h; path = core/Stage.h; sourceTree = "<group>"; };
 		32B7352B1A7962F800285B12 /* ofxXmlSettings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxXmlSettings.cpp; sourceTree = "<group>"; };
@@ -161,6 +161,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		322C01451A7C943400E7EDE8 /* ofxBeatDetector */ = {
+			isa = PBXGroup;
+			children = (
+				322C01461A7C943400E7EDE8 /* src */,
+			);
+			name = ofxBeatDetector;
+			sourceTree = "<group>";
+		};
+		322C01461A7C943400E7EDE8 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				322C01471A7C943400E7EDE8 /* ofxBeatDetector.cpp */,
+				322C01481A7C943400E7EDE8 /* ofxBeatDetector.h */,
+			);
+			name = src;
+			path = ../of_v0.8.4_osx_release/addons/ofxBeatDetector/src;
+			sourceTree = "<group>";
+		};
 		32B735191A78B4C500285B12 /* core */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,8 +188,6 @@
 				32B7351E1A78B53200285B12 /* Effect.h */,
 				32B735201A78B63800285B12 /* MusicBeam.cpp */,
 				32B735211A78B63800285B12 /* MusicBeam.h */,
-				32B735231A78B86200285B12 /* BeatDetect.cpp */,
-				32B735241A78B86200285B12 /* BeatDetect.h */,
 				32B735261A795E2900285B12 /* Stage.cpp */,
 				32B735271A795E2900285B12 /* Stage.h */,
 			);
@@ -245,6 +261,7 @@
 		BB4B014C10F69532006C3DED /* addons */ = {
 			isa = PBXGroup;
 			children = (
+				322C01451A7C943400E7EDE8 /* ofxBeatDetector */,
 				32B735361A7962FC00285B12 /* ofxGui */,
 				32B735291A7962F800285B12 /* ofxXmlSettings */,
 			);
@@ -420,6 +437,7 @@
 				32B7351F1A78B53200285B12 /* Effect.cpp in Sources */,
 				32B735351A7962F800285B12 /* tinyxmlparser.cpp in Sources */,
 				32B735331A7962F800285B12 /* tinyxml.cpp in Sources */,
+				322C01491A7C943400E7EDE8 /* ofxBeatDetector.cpp in Sources */,
 				32B7354B1A7962FC00285B12 /* ofxGuiGroup.cpp in Sources */,
 				32B735221A78B63800285B12 /* MusicBeam.cpp in Sources */,
 				32B735491A7962FC00285B12 /* ofxBaseGui.cpp in Sources */,
@@ -427,7 +445,6 @@
 				32B735501A7962FC00285B12 /* ofxToggle.cpp in Sources */,
 				32B7351C1A78B4D600285B12 /* Beat.cpp in Sources */,
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
-				32B735251A78B86200285B12 /* BeatDetect.cpp in Sources */,
 				32B7354D1A7962FC00285B12 /* ofxPanel.cpp in Sources */,
 				32B735281A795E2900285B12 /* Stage.cpp in Sources */,
 				32B735341A7962F800285B12 /* tinyxmlerror.cpp in Sources */,
